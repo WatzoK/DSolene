@@ -1,0 +1,88 @@
+body {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+ }
+ 
+ .credit{
+    position: absolute; bottom: 0; right: 0;
+ }
+ 
+ #img-txt{
+     
+     display:block;
+     text-align:center;
+     line-height:0;
+     padding:0;
+ }
+ #img-txt::after{
+     display:inline-block;
+     width:95%; 
+     content:'';
+     vertical-align:top;
+ }
+ 
+ #img-txt li{
+     display: inline-block;
+     width: 100px;
+     height: 40px;
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+     line-height: 40px;
+ 
+ 
+ }
+ #img-txt a{
+     display: block;
+     text-decoration: none;
+     color:  rgb(185, 64, 100);
+     font-size: 120%;
+ }
+ #img-txt a:hover{
+     color: red;
+ }
+ .images{
+     display: inline-block;
+     width: 90%;
+     height: 70%;
+     margin-left: 5%;
+     align-items: center;
+ }
+ #BD{  
+    display: flex;
+    margin-top: 100px;
+    z-index: 1;
+}
+ #boite{
+    display: flex;
+    margin-top: -400px;
+    margin-left: 500px;
+    z-index: 2;
+ }
+ #cancer{
+    display: flex;
+    margin-top: 100px;
+    z-index: 3;
+ }
+ #livre{
+    display: flex;
+    margin-top: 500px;
+    z-index: 4;
+ }
+ #peur{
+    display: flex;
+    margin-top: 500px;
+    z-index: 5;
+ }
+ #tasse{
+    display: flex;
+    margin-top: 500px;
+    z-index: 6;
+ }
+
+#boite-txt{
+    z-index: 2;
+    display: flex;
+    margin-left: 1000;
+}

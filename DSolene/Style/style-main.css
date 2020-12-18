@@ -1,0 +1,51 @@
+body {
+   background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+}
+h1 {
+    color:  rgb(185, 64, 100);
+}
+h2 {
+    color: rgb(185, 64, 100);
+}
+.credit{
+    position: absolute; bottom: 0; right: 0;
+    margin-right: 10px;
+ }
+
+#img-txt{
+    
+    display:block;
+    text-align:center;
+    line-height:0;
+    padding:0;
+}
+#img-txt::after{
+    display:inline-block;
+    width:95%; 
+    content:'';
+    vertical-align:top;
+}
+
+#img-txt li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+#img-txt a{
+    display: block;
+    text-decoration: none;
+    color:  rgb(185, 64, 100);
+    font-size: 120%;
+}
+#img-txt a:hover{
+    color: red;
+}
+

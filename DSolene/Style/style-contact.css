@@ -1,0 +1,85 @@
+body {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90%;
+ }
+ 
+ .credit{
+     float: right;
+ }
+ 
+ #img-txt{
+     
+     display:block;
+     text-align:center;
+     line-height:0;
+     padding:0;
+ }
+ #img-txt::after{
+     display:inline-block;
+     width:95%; 
+     content:'';
+     vertical-align:top;
+ }
+ 
+ #img-txt li{
+     display: inline-block;
+     width: 100px;
+     height: 40px;
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+     line-height: 40px;
+ 
+ 
+ }
+ #img-txt a{
+     display: block;
+     text-decoration: none;
+     color:  rgb(185, 64, 100);
+     font-size: 120%;
+ }
+ #img-txt a:hover{
+     color: red;
+ }
+
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container-contact {
+    border-radius: 5px;
+    background-color:  rgb(255, 173, 186);
+    padding: 20px;
+  } 

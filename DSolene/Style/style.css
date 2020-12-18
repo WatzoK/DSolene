@@ -1,0 +1,44 @@
+body {
+   background-color: pink;
+
+}
+
+.credit{
+    float: right;
+}
+
+#img-txt{
+    
+    display:block;
+    text-align:center;
+    line-height:0;
+    padding:0;
+}
+#img-txt::after{
+    display:inline-block;
+    width:95%; 
+    content:'';
+    vertical-align:top;
+}
+
+#img-txt li{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    margin: 0px;
+    padding: 0px;
+    border-right: 1px solid #cccccc;
+    text-align: center;
+    line-height: 40px;
+
+
+}
+#img-txt a{
+    display: block;
+    text-decoration: none;
+    color:  rgb(185, 64, 100);
+}
+#img-txt a:hover{
+    color: red;
+}
+
